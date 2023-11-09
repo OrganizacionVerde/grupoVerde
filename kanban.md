@@ -1,5 +1,8 @@
 
-## TO DO 
+## TO DO
+
+1. PASAR INFORMACIÓN DE LOS NEUMÁTICOS AL CSV
+2. 
 
 ## DOING
 
