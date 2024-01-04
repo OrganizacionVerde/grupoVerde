@@ -1,7 +1,7 @@
 import pandas as pd
-import random
 from fastapi import FastAPI
-import json
+import schedule
+import time
 
 app = FastAPI()
 
@@ -9,12 +9,23 @@ app = FastAPI()
 excel_file = 'Excel.xlsx'
 data = pd.read_excel(excel_file)
 
-@app.get("/obtener_datos")
-def obtener_datos():
-    # Seleccionar aleatoriamente una fila del Excel
-    fila_aleatoria = data.sample().to_dict(orient='records')[0]
-    # Guardar los datos en un archivo JSON
-    with open('/datos_aleatorios.json', 'w') as json_file:
-        json.dump(fila_aleatoria, json_file, indent=4)
+def fila_aleatoria():
+    # Seleccionar aleatoriamente una fila del DataFrame
+    fila_aleatoria = data.sample()
 
+    # Abrir el archivo en modo de adición y añadir la fila como un nuevo registro
+    with open('entrada.jsonl', 'a') as json_file:
+        fila_aleatoria.to_json(json_file, orient='records', lines=True)
     return fila_aleatoria
+
+# Programar la ejecución de obtener_datos cada 3 segundos
+schedule.every(3).seconds.do(fila_aleatoria)
+
+# Función para ejecutar la planificación de schedule
+def run_schedule():
+    while True:
+        schedule.run_pending()
+        time.sleep(1)
+
+if __name__ == "__main__":
+    run_schedule()
