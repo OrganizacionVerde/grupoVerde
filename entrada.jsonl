@@ -1,25 +1,23 @@
-{"Nombre":"CrossClimate+","Tipo":"Suv compacto","Estacion":"All Season"}
-{"Nombre":"CrossClimate+","Tipo":"Sport","Estacion":"All Season"}
-{"Nombre":"CrossClimate SUV","Tipo":"Suv medio","Estacion":"All Season"}
-{"Nombre":"CrossClimate SUV","Tipo":"Suv medio","Estacion":"All Season"}
-{"Nombre":"Agilis CrossClimate","Tipo":"Vehiculos comerciales","Estacion":"All Season"}
-{"Nombre":"CrossClimate+","Tipo":"Berlina","Estacion":"All Season"}
-{"Nombre":"CrossClimate","Tipo":"Electricos y compactos","Estacion":"All Season"}
-{"Nombre":"Primacy 4","Tipo":"Electricos y compactos","Estacion":"Verano"}
-{"Nombre":"Energy E-V","Tipo":"Electricos y compactos","Estacion":"Verano"}
-{"Nombre":"CrossClimate+","Tipo":"Berlina","Estacion":"All Season"}
-{"Nombre":"Energy E-V","Tipo":"Electricos y compactos","Estacion":"Verano"}
-{"Nombre":"Primacy 4","Tipo":"Electricos y compactos","Estacion":"Verano"}
-{"Nombre":"Primacy 4","Tipo":"Electricos y compactos","Estacion":"Verano"}
-{"Nombre":"CrossClimate+","Tipo":"Electricos y compactos","Estacion":"All Season"}
-{"Nombre":"Energy Saver","Tipo":"Electricos y compactos","Estacion":"Verano"}
-{"Nombre":"CrossClimate SUV","Tipo":"Suv grande","Estacion":"All Season"}
-{"Nombre":"Primacy 4","Tipo":"Electricos y compactos","Estacion":"Verano"}
-{"Nombre":"CrossClimate+","Tipo":"Sport","Estacion":"All Season"}
-{"Nombre":"CrossClimate+","Tipo":"Suv medio","Estacion":"All Season"}
-{"Nombre":"Agilis CrossClimate","Tipo":"Vehiculos comerciales","Estacion":"All Season"}
-{"Nombre":"Energy E-V","Tipo":"Electricos y compactos","Estacion":"Verano"}
-{"Nombre":"Primacy 4","Tipo":"Electricos y compactos","Estacion":"Verano"}
-{"Nombre":"Energy Saver","Tipo":"Electricos y compactos","Estacion":"Verano"}
-{"Nombre":"Energy E-V","Tipo":"Electricos y compactos","Estacion":"Verano"}
-{"Nombre":"Energy Saver","Tipo":"Electricos y compactos","Estacion":"Verano"}
+
+{"Nombre": "Primacy 4", "Tipo": "Electricos y compactos, Berlina, Sport, SUV Compacto, SUV Medio", "Estacion": "Verano", "Eficiencia_energetica": "A-B-C", "Capacidad_frenado_suelo_mojado": "A-B", "Ruido_ambiental_dB": "68-70", "Ruido_ambiental_ondas": "1, 2", "Dimension": "225/50 R16 92 W"}
+{"Nombre": "Primacy 4", "Tipo": "Electricos y compactos, Berlina, Sport, SUV Compacto, SUV Medio", "Estacion": "Verano", "Eficiencia_energetica": "A-B-C", "Capacidad_frenado_suelo_mojado": "A-B", "Ruido_ambiental_dB": "68-70", "Ruido_ambiental_ondas": "1, 2", "Dimension": "205/55 R17 95V"}
+{"Nombre": "CrossClimate SUV", "Tipo": "SUV Medio, SUV Grande", "Estacion": "All Season", "Eficiencia_energetica": "B-C", "Capacidad_frenado_suelo_mojado": "B", "Ruido_ambiental_dB": "69-71", "Ruido_ambiental_ondas": "1, 2", "Dimension": "235/55 R17 103 V"}
+{"Nombre": "Energy Saver+", "Tipo": "Electricos y compactos", "Estacion": "Verano", "Eficiencia_energetica": "A-C", "Capacidad_frenado_suelo_mojado": "A-B", "Ruido_ambiental_dB": "68-70", "Ruido_ambiental_ondas": "2", "Dimension": "205/60 R16 95 V"}
+{"Nombre": "Primacy 4", "Tipo": "Electricos y compactos, Berlina, Sport, SUV Compacto, SUV Medio", "Estacion": "Verano", "Eficiencia_energetica": "A-B-C", "Capacidad_frenado_suelo_mojado": "A-B", "Ruido_ambiental_dB": "68-70", "Ruido_ambiental_ondas": "1, 2", "Dimension": "195/65 R16 92 V"}
+{"Nombre": "Energy Saver+", "Tipo": "Electricos y compactos", "Estacion": "Verano", "Eficiencia_energetica": "A-C", "Capacidad_frenado_suelo_mojado": "A-B", "Ruido_ambiental_dB": "68-70", "Ruido_ambiental_ondas": "2", "Dimension": "205/55 R16 91 W"}
+{"Nombre": "CrossClimate+", "Tipo": "Electricos y compactos, Berlina, Sport, SUV Compacto, SUV Medio", "Estacion": "All Season", "Eficiencia_energetica": "B-C", "Capacidad_frenado_suelo_mojado": "B", "Ruido_ambiental_dB": "68-69", "Ruido_ambiental_ondas": "2", "Dimension": "205/55 R16 91 H"}
+{"Nombre": "Primacy 4", "Tipo": "Electricos y compactos, Berlina, Sport, SUV Compacto, SUV Medio", "Estacion": "Verano", "Eficiencia_energetica": "A-B-C", "Capacidad_frenado_suelo_mojado": "A-B", "Ruido_ambiental_dB": "68-70", "Ruido_ambiental_ondas": "1, 2", "Dimension": "215/60 R17 96 H"}
+{"Nombre": "Primacy 4", "Tipo": "Electricos y compactos, Berlina, Sport, SUV Compacto, SUV Medio", "Estacion": "Verano", "Eficiencia_energetica": "A-B-C", "Capacidad_frenado_suelo_mojado": "A-B", "Ruido_ambiental_dB": "68-70", "Ruido_ambiental_ondas": "1, 2", "Dimension": "225/45 R17 91 Y"}
+{"Nombre": "CrossClimate SUV", "Tipo": "SUV Medio, SUV Grande", "Estacion": "All Season", "Eficiencia_energetica": "B-C", "Capacidad_frenado_suelo_mojado": "B", "Ruido_ambiental_dB": "69-71", "Ruido_ambiental_ondas": "1, 2", "Dimension": "235/50 R18 101 V"}
+{"Nombre": "CrossClimate SUV", "Tipo": "SUV Medio, SUV Grande", "Estacion": "All Season", "Eficiencia_energetica": "B-C", "Capacidad_frenado_suelo_mojado": "B", "Ruido_ambiental_dB": "69-71", "Ruido_ambiental_ondas": "1, 2", "Dimension": "235/65 R18 110 H"}
+{"Nombre": "Primacy 4", "Tipo": "Electricos y compactos, Berlina, Sport, SUV Compacto, SUV Medio", "Estacion": "Verano", "Eficiencia_energetica": "A-B-C", "Capacidad_frenado_suelo_mojado": "A-B", "Ruido_ambiental_dB": "68-70", "Ruido_ambiental_ondas": "1, 2", "Dimension": "205/55 R16 91 H"}
+{"Nombre": "Energy E-V", "Tipo": "Electricos y compactos", "Estacion": "Verano", "Eficiencia_energetica": "A", "Capacidad_frenado_suelo_mojado": "A", "Ruido_ambiental_dB": "70", "Ruido_ambiental_ondas": "2", "Dimension": "185/65 R15 88 Q"}
+{"Nombre": "Energy Saver+", "Tipo": "Electricos y compactos", "Estacion": "Verano", "Eficiencia_energetica": "A-C", "Capacidad_frenado_suelo_mojado": "A-B", "Ruido_ambiental_dB": "68-70", "Ruido_ambiental_ondas": "2", "Dimension": "205/55 R16 91 W"}
+{"Nombre": "CrossClimate+", "Tipo": "Electricos y compactos, Berlina, Sport, SUV Compacto, SUV Medio", "Estacion": "All Season", "Eficiencia_energetica": "B-C", "Capacidad_frenado_suelo_mojado": "B", "Ruido_ambiental_dB": "68-69", "Ruido_ambiental_ondas": "2", "Dimension": "225/55 R16 99 W"}
+{"Nombre": "Energy E-V", "Tipo": "Electricos y compactos", "Estacion": "Verano", "Eficiencia_energetica": "A", "Capacidad_frenado_suelo_mojado": "A", "Ruido_ambiental_dB": "70", "Ruido_ambiental_ondas": "2", "Dimension": "185/65 R15 88 Q"}
+{"Nombre": "CrossClimate+", "Tipo": "Electricos y compactos, Berlina, Sport, SUV Compacto, SUV Medio", "Estacion": "All Season", "Eficiencia_energetica": "B-C", "Capacidad_frenado_suelo_mojado": "B", "Ruido_ambiental_dB": "68-69", "Ruido_ambiental_ondas": "2", "Dimension": "245/40 R18 97 Y"}
+{"Nombre": "Primacy 4", "Tipo": "Electricos y compactos, Berlina, Sport, SUV Compacto, SUV Medio", "Estacion": "Verano", "Eficiencia_energetica": "A-B-C", "Capacidad_frenado_suelo_mojado": "A-B", "Ruido_ambiental_dB": "68-70", "Ruido_ambiental_ondas": "1, 2", "Dimension": "195/55 R16 87 H"}
+{"Nombre": "CrossClimate+", "Tipo": "Electricos y compactos, Berlina, Sport, SUV Compacto, SUV Medio", "Estacion": "All Season", "Eficiencia_energetica": "B-C", "Capacidad_frenado_suelo_mojado": "B", "Ruido_ambiental_dB": "68-69", "Ruido_ambiental_ondas": "2", "Dimension": "245/40 R18 97 Y"}
+{"Nombre": "Primacy 4", "Tipo": "Electricos y compactos, Berlina, Sport, SUV Compacto, SUV Medio", "Estacion": "Verano", "Eficiencia_energetica": "A-B-C", "Capacidad_frenado_suelo_mojado": "A-B", "Ruido_ambiental_dB": "68-70", "Ruido_ambiental_ondas": "1, 2", "Dimension": "195/55 R16 87 H"}
+{"Nombre": "Energy Saver+", "Tipo": "Electricos y compactos", "Estacion": "Verano", "Eficiencia_energetica": "A-C", "Capacidad_frenado_suelo_mojado": "A-B", "Ruido_ambiental_dB": "68-70", "Ruido_ambiental_ondas": "2", "Dimension": "165/70 R14 81 T"}
+{"Nombre": "Primacy 4", "Tipo": "Electricos y compactos, Berlina, Sport, SUV Compacto, SUV Medio", "Estacion": "Verano", "Eficiencia_energetica": "A-B-C", "Capacidad_frenado_suelo_mojado": "A-B", "Ruido_ambiental_dB": "68-70", "Ruido_ambiental_ondas": "1, 2", "Dimension": "205/55 R16 91 H"}
