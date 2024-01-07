@@ -14,8 +14,8 @@ class Referencia(BaseModel):
 class Lote(Referencia):
     ID_lote: int
     Cantidad_neumaticos: int
-    fecha_entrada: datetime
-    fecha_salida: datetime = None
+    Fecha_entrada: datetime
+    Fecha_salida: datetime = None
     Nombre: str
     Tipo: str
     Estacion: str
