@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from modelos import Referencia
+from modelos import Referencia, Lote
 
 app = FastAPI()
 
