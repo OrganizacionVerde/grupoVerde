@@ -69,7 +69,7 @@ def procesar_referencia(referencia):
     
     datos_lote = {
 
-        "ID_lote":generar_id(),
+        "_id":generar_id(),
         "Cantidad_neumaticos":asignar_cantidad(),
         "Fecha_entrada":fecha_actual(),
         "Fecha_salida":None

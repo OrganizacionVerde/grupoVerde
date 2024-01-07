@@ -8,5 +8,4 @@ coleccion = db['stock']
 def almacenar_en_mongo(datos):
     print(datos)
     coleccion.insert_one(document=datos)
-    print("Datos almacenados")
     return {"mensaje": "Datos almacenados en MongoDB"}
