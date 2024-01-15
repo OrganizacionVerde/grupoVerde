@@ -15,7 +15,7 @@ class Lote(Referencia):
     ID_lote: int
     Cantidad_neumaticos: int
     Fecha_entrada: datetime
-    Fecha_salida: datetime = None
+    Fecha_salida: datetime = 0
     Nombre: str
     Tipo: str
     Estacion: str

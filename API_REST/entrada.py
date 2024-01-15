@@ -43,6 +43,6 @@ def procesar_y_almacenar():
     resultado_almacenamiento = almacenar_en_mongo(datos_lote)
     print(resultado_almacenamiento)
 
-if __name__ == "__main__":
+def main():
     # Llamar a la funcion principal 
     procesar_y_almacenar()

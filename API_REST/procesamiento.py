@@ -72,7 +72,7 @@ def procesar_referencia(referencia):
         "_id":generar_id(),
         "Cantidad_neumaticos":asignar_cantidad(),
         "Fecha_entrada":fecha_actual(),
-        "Fecha_salida":None
+        "Fecha_salida": 0
     }
     # Pasamos la referencia a un diccionario de python
     referencia.Dimension = procesar_dimension(referencia.Dimension)
