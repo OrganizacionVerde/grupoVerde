@@ -7,8 +7,12 @@ import services
 
 def obtener_registro_aleatorio():
     """
-    Obtiene un registro aletorio del CSV de las referencias
+    Obtiene un registro aletorio del CSV de servicios.CSV_URL
+
+    :return: Devuelve un registro aleatorio
+    :rtype: diccionario 
     """
+
     # Descargar el archivo CSV desde la URL
     response = requests.get(services.CSV_URL)
     df = pd.read_csv(io.StringIO(response.text))
@@ -26,5 +30,4 @@ def main():
     lote = services.generar_lote(referencia)
     print(lote.text)
 
-if __name__ == "__main__":
-    main()
+main()
