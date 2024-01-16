@@ -1,5 +1,6 @@
 
 from pymongo import MongoClient
+import random
 
 # Usuario y contraseña del cluster0 en MongoDB Atlas
 user = 'dbUser'
@@ -22,21 +23,24 @@ def almacenar_en_mongo(datos, coleccion='stock'):
 def obtener_de_mongo(condicion=None, coleccion='stock'): # Condicion es fecha de salida = 0 
     
     coleccion_actual = db[coleccion] # Coleccion actual Stock 
+
     datos = list(coleccion_actual.find(condicion)) if condicion else [] # Pasar los datos que cumplen la condicion 
-    print("Has llegado a Mongo.py")
-    return datos
+    
+    # Si hay datos para salir, seleccionar aleatoriamente uno de ellos
+    if datos:
 
-def almacenar_en_mongo_historico(datos): # Almacenar el dato de salida de Stock en la coleccion Historico
+        dato_seleccionado = random.choice(datos)
+
+    return dato_seleccionado
+
+def almacenar_en_mongo_historico(lote_salida): # Almacenar el dato de salida de Stock en la coleccion Historico
    
-    print("Se ha almacenado el dato en la coleccion Historico")
-    return almacenar_en_mongo(datos, coleccion='historico')
+    return almacenar_en_mongo(lote_salida, coleccion='historico')
 
-def eliminar_de_mongo(datos, coleccion='stock'): # Eliminar de la coleccion Stock el dato que se acaba de introducir en Historico
+def eliminar_de_mongo(lote, coleccion='stock'): # Eliminar de la coleccion Stock el dato que se acaba de introducir en Historico
    
     coleccion_actual = db[coleccion]
-    for dato in datos:
-        coleccion_actual.delete_one({"_id": dato["_id"]})
     
-    print("Se ha eliminado de Stock y se ha pasado a Historico")
-
+    coleccion_actual.delete_one(lote)
+    
     return {"mensaje": f'Datos eliminados de la colección "{coleccion}" de MongoDB'}

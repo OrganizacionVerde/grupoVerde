@@ -79,3 +79,17 @@ def procesar_referencia(referencia):
     referencia_normalizada = referencia.dict()
     datos_lote|=referencia_normalizada
     return datos_lote
+
+def procesar_lote_salida(lote):
+
+    clientes = ['MercedesBenz', 'Porsche', 'Audi', 'BMW', 'Hyundai', 'Fiat', 'Toyota', 'Nissan', 'Lamborghini', 'Ferrari', 'Bugatti', 'Honda', 'Opel', 'Volvo', 'Peugeot', 'Citroën', 'Renoult', 'Seat', 'Cupra', 'Ford', 'Chevrolet', 'Norauto', 'Feu_Vert', 'Midas','Aurgi']
+    datos_lote_salida = {
+
+        "Fecha_salida": fecha_actual(),
+        "Cliente": random.choice(clientes)
+
+    }
+
+    lote|=datos_lote_salida
+    print(lote)
+    return lote

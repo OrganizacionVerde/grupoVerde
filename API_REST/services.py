@@ -10,3 +10,10 @@ CSV_URL = 'https://raw.githubusercontent.com/OrganizacionVerde/grupoVerde/main/C
 
 def generar_lote(referencia: modelos.Referencia):
     response = requests.post(API_URL+"/generar_lote", data=json.dumps(referencia))
+
+def salida_lote():
+    response = requests.get(API_URL+"/salida_lote")
+    return response
+
+
+
