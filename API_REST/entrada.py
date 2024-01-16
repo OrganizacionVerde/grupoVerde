@@ -18,12 +18,13 @@ def obtener_registro_aleatorio():
 
     return registro_aleatorio
 
-def llamada_a_api():
+def main():
     """
     Cuando entrada.py se ejecuta, llama a la función generar_lote de services.py
     """
     referencia = obtener_registro_aleatorio()
-    services.generar_lote(referencia)
+    lote = services.generar_lote(referencia)
+    print(lote.text)
 
 if __name__ == "__main__":
-    llamada_a_api()    
+    main()

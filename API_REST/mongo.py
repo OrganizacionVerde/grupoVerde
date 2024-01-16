@@ -16,7 +16,7 @@ db = cliente['Michelin_Storage']
 def almacenar_en_mongo(datos, coleccion='stock'):
   
     coleccion_actual = db[coleccion]
-    print(datos)
+
     coleccion_actual.insert_one(datos)
     return {"mensaje": f'Datos almacenados en la colección "{coleccion}" de MongoDB'}
 

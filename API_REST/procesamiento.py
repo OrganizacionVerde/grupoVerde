@@ -32,7 +32,7 @@ def procesar_dimension(dimension):
         'Índice de Carga': indice_carga,
         'Índice de Velocidad': indice_velocidad
     }
-    print(resultado)
+    
     return resultado
 
 def generar_id():
@@ -91,5 +91,4 @@ def procesar_lote_salida(lote):
     }
 
     lote|=datos_lote_salida
-    print(lote)
     return lote

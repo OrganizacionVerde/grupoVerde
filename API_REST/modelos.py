@@ -23,7 +23,7 @@ class Lote(Referencia):
     Capacidad_frenado_suelo_mojado: str
     Ruido_ambiental_dB: int
     Ruido_ambiental_ondas: int
-    Dimension: str
+    Dimension: dict
    
 class Lote_Salida(Lote):
     ID_lote: int
@@ -37,5 +37,5 @@ class Lote_Salida(Lote):
     Capacidad_frenado_suelo_mojado: str
     Ruido_ambiental_dB: int
     Ruido_ambiental_ondas: int
-    Dimension: str
+    Dimension: dict
     Cliente: str = ''

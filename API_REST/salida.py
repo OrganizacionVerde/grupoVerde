@@ -1,7 +1,7 @@
 import services
 
 
-def llamada_a_api():
+def main():
 
     """
     Cuando salida.py se ejecuta, llama a la función salida_lote de services.py
@@ -10,4 +10,4 @@ def llamada_a_api():
     print(salida_lote.text)
   
 if __name__ == "__main__":
-    llamada_a_api()  
+    main()  
