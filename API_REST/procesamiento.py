@@ -1,5 +1,6 @@
 from datetime import datetime
 import random
+import pycountry
 
 # Funcion unica que recibe una DIMENSION (completa) por parametro y 
 # la transforme en 6 columnas separadas y las devuelva en un diccionario
@@ -86,9 +87,22 @@ def procesar_lote_salida(lote):
     datos_lote_salida = {
 
         "Fecha_salida": fecha_actual(),
-        "Cliente": random.choice(clientes)
+        "Cliente": random.choice(clientes),
+        "Pais_destino": generar_pais_aleatorio()
 
     }
 
     lote|=datos_lote_salida
+
     return lote
+
+def generar_pais_aleatorio():
+    paises = [{'alpha_2': pais.alpha_2, 
+               'alpha_3': pais.alpha_3, 
+               'name': pais.name
+               } for pais in pycountry.countries]
+
+    
+    pais_aleatorio = random.choice(paises)
+
+    return pais_aleatorio

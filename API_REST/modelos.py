@@ -39,3 +39,4 @@ class Lote_Salida(Lote):
     Ruido_ambiental_ondas: int
     Dimension: dict
     Cliente: str = ''
+    Pais_destino: dict
