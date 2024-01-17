@@ -10,7 +10,7 @@ def guardar_respuesta(response):
     Guarda la respuesta del backend FastApi en el archivo backend_response.jsonl
 
     :param response: respuesta del backend
-    :type response: diccionario
+    :type  response: diccionario
     """
 
     with open('backend_response.jsonl', mode='a') as file:
@@ -19,13 +19,14 @@ def guardar_respuesta(response):
 @app.post("/generar_lote")
 def generar_lote(referencia: Referencia):
     """
-    Genera un lote a partir de una referencia del CSV y lo introduce en la colección stock de mongoDB
+    Genera un lote a partir de una referencia del CSV y lo introduce en la colección stock de mongoDB.
+    Ejecuta la función guardar_respuesta.
 
-    Args:
-    - `referencia` (diccionario): la referencia del CSV del que se quiere generar un lote
+    :param referencia: la referencia del CSV del que se quiere generar un lote
+    :type  referencia: diccionario 
 
-    Returns:
-    - `response` (diccionario): respuesta con mensaje, status_code 200 y lote
+    :return response: respuesta con mensaje, status_code 200 y lote
+    :rtype  response: diccionario 
 
     """
 
@@ -46,6 +47,14 @@ def generar_lote(referencia: Referencia):
 
 @app.get("/salida_lote")
 def salida_lote():
+    """
+    Obtiene un lote de la colección stock de mongoDB y lo introduce en la colección historico.
+    Ejecuta la función guardar_respuesta.
+
+    :return response: respuesta con mensaje, status_code 200 y lote_salida
+    :rtype  response: diccionario 
+
+    """
     lote = obtener_de_mongo(condicion={"Fecha_salida": 0}, coleccion='stock')
     eliminar_de_mongo(lote)
     lote_salida= procesar_lote_salida(lote)
